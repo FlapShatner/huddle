@@ -2,6 +2,7 @@ import GlobalStyles from './components/Global'
 import { ThemeProvider } from 'styled-components'
 import Hero from './components/Hero/Hero'
 import Features from './components/Features/Features'
+import Footer from './components/Footer/Footer'
 import CTA from './components/CTA/CTA'
 
 const theme = {
@@ -21,6 +22,7 @@ function App() {
       <Hero />
       <Features />
       <CTA />
+      <Footer />
     </ThemeProvider>
   )
 }
