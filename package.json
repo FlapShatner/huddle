@@ -2,7 +2,10 @@
   "name": "huddle-v2",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://flapshatner.github.io/huddle/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -17,6 +20,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
+    "gh-pages": "^4.0.0",
     "vite": "^2.9.7"
   }
 }
