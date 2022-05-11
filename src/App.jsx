@@ -12,7 +12,9 @@ const theme = {
     darkCyan: 'hsl(192, 100%, 9%)',
     grayBlue: 'hsl(208, 11%, 55%)',
   },
-  mobile: '375px',
+  mobile: '400px',
+  tablet: '780px',
+  med: '1100px',
 }
 
 function App() {
