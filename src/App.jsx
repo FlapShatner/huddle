@@ -2,6 +2,7 @@ import GlobalStyles from './components/Global'
 import { ThemeProvider } from 'styled-components'
 import Hero from './components/Hero/Hero'
 import Features from './components/Features/Features'
+import CTA from './components/CTA/CTA'
 
 const theme = {
   colors: {
@@ -19,6 +20,7 @@ function App() {
       <GlobalStyles />
       <Hero />
       <Features />
+      <CTA />
     </ThemeProvider>
   )
 }

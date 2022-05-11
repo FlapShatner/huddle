@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: ${({ theme }) => theme.colors.paleCyan};
+    background: #fff;
     color: ${({ theme }) => theme.colors.darkCyan};
     font-family: 'Poppins', sans-serif;
     font-size: 1.15em;
