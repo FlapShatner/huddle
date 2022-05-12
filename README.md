@@ -52,7 +52,7 @@ Users should be able to:
 
 This is my first time using styled components in a project. I found it really makes it easier to keep your css organized and reusable. I can see that it would be very helpful in a bigger project or with a team. I think I could have done a better job organizing and refactoring but I'm still learning how. 
 
-I like that the app itself is concise:
+I like that the app component itself is concise:
 
 ```jsx
 function App() {
