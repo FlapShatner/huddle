@@ -47,7 +47,7 @@ export default function Footer() {
               <ContactInfo>contact@huddle.com</ContactInfo>
             </FlexRow>
           </FlexCol>
-          <Links>
+          <Links first>
             <Link>About Us</Link>
             <Link>What We Do</Link>
             <Link>FAQ</Link>

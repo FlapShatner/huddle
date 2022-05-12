@@ -21,7 +21,7 @@ export default function Features() {
             <Image src={together} alt='illustration' />
           </ImgContainer>
         </FeatureSection>
-        <FeatureSection>
+        <FeatureSection middle>
           <ImgContainer>
             <Image src={convo} alt='illustration' />
           </ImgContainer>

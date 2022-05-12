@@ -16,10 +16,21 @@ export const Button = styled.button`
     opacity: 0.9;
     transform: scale(0.98);
   }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    width: 120px;
+    font-size: 14px;
+    padding: 8px 20px;
+  }
 `
 
 export const PrimaryButton = styled(Button)`
   background-color: ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.paleCyan};
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    width: 75%;
+    padding: 15px;
+  }
 `

@@ -12,8 +12,8 @@ const theme = {
     darkCyan: 'hsl(192, 100%, 9%)',
     grayBlue: 'hsl(208, 11%, 55%)',
   },
-  mobile: '400px',
-  tablet: '780px',
+  mobile: '600px',
+  tablet: '800px',
   med: '1100px',
 }
 

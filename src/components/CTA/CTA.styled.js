@@ -12,6 +12,10 @@ export const Box = styled.div`
   position: absolute;
   z-index: 5;
   background-color: #fff;
+
+  @media (max-width: ${({ theme }) => theme.med}) {
+    padding: 30px;
+  }
 `
 
 export const CtaContainer = styled.div`
@@ -22,4 +26,8 @@ export const CtaContainer = styled.div`
 `
 export const Heading = styled.h2`
   padding-bottom: 10px;
+
+  @media (max-width: ${({ theme }) => theme.med}) {
+    font-size: 125%;
+  }
 `

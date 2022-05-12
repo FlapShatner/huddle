@@ -41,6 +41,12 @@ export const Link = styled(Text)``
 
 export const Links = styled(FlexCol)`
   padding: 20px 80px;
+
+  @media (max-width: ${({ theme }) => theme.med}) {
+    padding: 0;
+
+    ${(props) => props.first && 'padding-top: 30px;'}
+  }
 `
 
 export const Social = styled(Icon)`
@@ -48,7 +54,16 @@ export const Social = styled(Icon)`
 `
 export const FooterContent = styled(FlexRow)`
   justify-content: space-between;
+
+  @media (max-width: ${({ theme }) => theme.med}) {
+    flex-direction: column;
+  }
 `
 export const End = styled(FlexCol)`
   justify-content: space-between;
+
+  @media (max-width: ${({ theme }) => theme.med}) {
+    align-items: center;
+    padding-top: 20px;
+  }
 `
