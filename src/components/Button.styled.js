@@ -33,4 +33,8 @@ export const PrimaryButton = styled(Button)`
     width: 75%;
     padding: 15px;
   }
+  @media (max-width: ${({ theme }) => theme.sm}) {
+    width: 65%;
+    padding: 10px;
+  }
 `

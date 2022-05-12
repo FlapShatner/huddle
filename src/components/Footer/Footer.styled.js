@@ -36,8 +36,15 @@ export const ContactInfo = styled(Text)`
   padding-top: 6px;
   font-weight: 400;
   margin: 6px 0 0 0;
+  @media (max-width: ${({ theme }) => theme.sm}) {
+    font-size: 12px;
+  }
 `
-export const Link = styled(Text)``
+export const Link = styled(Text)`
+  @media (max-width: ${({ theme }) => theme.sm}) {
+    font-size: 12px;
+  }
+`
 
 export const Links = styled(FlexCol)`
   padding: 20px 80px;

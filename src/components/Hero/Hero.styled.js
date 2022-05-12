@@ -37,6 +37,10 @@ export const Image = styled.img`
   @media (max-width: ${({ theme }) => theme.med}) {
     max-width: 380px;
   }
+
+  @media (max-width: ${({ theme }) => theme.sm}) {
+    max-width: 320px;
+  }
 `
 export const Header = styled.h1`
   font-size: 250%;
@@ -47,6 +51,11 @@ export const Header = styled.h1`
   @media (max-width: ${({ theme }) => theme.tablet}) {
     text-align: center;
     font-size: 175%;
+    padding-right: 0;
+  }
+
+  @media (max-width: ${({ theme }) => theme.sm}) {
+    font-size: 150%;
   }
 `
 export const Copy = styled.p`
@@ -58,6 +67,10 @@ export const Copy = styled.p`
   @media (max-width: ${({ theme }) => theme.tablet}) {
     text-align: center;
     margin: 40px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.sm}) {
+    font-size: 16px;
   }
 `
 export const HeroFlex = styled(Flex)`

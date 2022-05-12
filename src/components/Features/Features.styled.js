@@ -11,6 +11,11 @@ export const H2 = styled.h2`
   @media (max-width: ${({ theme }) => theme.med}) {
     text-align: center;
   }
+
+  @media (max-width: ${({ theme }) => theme.sm}) {
+    text-align: center;
+    font-size: 125%;
+  }
 `
 
 export const Copy = styled.p`
@@ -19,6 +24,11 @@ export const Copy = styled.p`
 
   @media (max-width: ${({ theme }) => theme.med}) {
     text-align: center;
+  }
+
+  @media (max-width: ${({ theme }) => theme.sm}) {
+    text-align: center;
+    font-size: 70%;
   }
 `
 
