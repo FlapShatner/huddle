@@ -10,7 +10,7 @@ export const FlexCol = styled.div`
 `
 export const FooterContainer = styled.div`
   background-color: ${({ theme }) => theme.colors.darkCyan};
-  padding: 90px 60px 40px;
+  padding: 120px 60px 40px;
   z-index: 1;
 `
 export const LogoWhite = styled.img`
